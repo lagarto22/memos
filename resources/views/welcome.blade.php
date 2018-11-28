@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    SISTEMA DE MEMOS
+                    MEMOS
                 </div>
 
             <!--    <div class="links">
