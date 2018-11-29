@@ -13,7 +13,23 @@ class CreateMemosTable.php extends Migration
      */
     public function up()
     {
-        //
+        //campos para memos
+
+        Schema::create('memos', function (Blueprint $table) {
+            $table->increments('id');
+            $table->date('fecha');
+            $table->string('de');
+            $table->string('a');
+            $table->string('cc');
+            $table->string('asunto');
+            $table->string('descripcion');
+            $table->string('firma');
+         //   $table->integer('npagina');
+         //   $table->integer('edicion');
+         //   $table->string('autor');
+         //   $table->decimal('precio',5,2);
+            $table->timestamps();
+        });
     }
 
     /**
